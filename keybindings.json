@@ -1,0 +1,35 @@
+[
+  { 
+    "key": "cmd+1",
+    "command": "workbench.action.terminal.toggleTerminal" 
+  },
+  { 
+    "key": "ctrl+o",                
+    "command": "workbench.action.navigateBack"   
+  },
+  { 
+    "key": "ctrl+i",                
+    "command": "workbench.action.navigateForward"   
+  },
+  { 
+    "key": "cmd+shift+a",                
+    "command": "workbench.action.toggleActivityBarVisibility"   
+  },
+  { 
+    "key": "cmd+j",                
+    "command": "workbench.action.terminal.focus"   
+  },
+  { 
+    "key": "cmd+k", 
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus" 
+  },
+  { 
+    "key": "cmd+ctrl+k", 
+    "command": "workbench.action.moveActiveEditorGroupRight"
+  },
+  { 
+    "key": "cmd+ctrl+j", 
+    "command": "workbench.action.moveActiveEditorGroupLeft"
+  }
+]

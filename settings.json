@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.tabSize": 2,
+  "workbench.sideBar.location": "right",
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+    "before": ["t", "y"],
+    "after": [],
+    "commands": [
+        {
+            "command": "workbench.action.showCommands",
+            "args": []
+        }
+    ]
+    }
+  ],
+"workbench.activityBar.visible": false,
+"window.zoomLevel": 0
+}
+
