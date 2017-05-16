@@ -1,4 +1,5 @@
 {
+    "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "Birds II",
     "sync.gist": "",
     "sync.lastUpload": null,
@@ -15,6 +16,12 @@
     "editor.tabSize": 2,
     "git.confirmSync": false,
     "window.title": "${rootName}${separator}${activeEditorShort}",
+      "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
     "vim.otherModesKeyBindingsNonRecursive": [
         {
             "before": [
