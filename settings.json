@@ -1,8 +1,21 @@
-// Place your settings in this file to overwrite the default settings
 {
-  "editor.tabSize": 2,
-  "workbench.sideBar.location": "right",
-  "vim.otherModesKeyBindingsNonRecursive": [
+"workbench.colorTheme": "RealGithub",
+"sync.gist": "",
+"sync.lastUpload": null,
+"sync.autoDownload": false,
+"sync.autoUpload": false,
+"sync.lastDownload": null,
+"sync.version": 242,
+"sync.showSummary": true,
+"sync.forceDownload": false,
+"sync.workspaceSync": false,
+"sync.anonymousGist": false,
+"workbench.sideBar.location": "right",
+"workbench.activityBar.visible": false,
+"editor.tabSize": 2,
+"git.confirmSync": false,
+"window.title": "${rootName}${separator}${activeEditorShort}",
+"vim.otherModesKeyBindingsNonRecursive": [
     {
     "before": ["t", "y"],
     "after": [],
@@ -14,7 +27,14 @@
     ]
     }
   ],
-"workbench.activityBar.visible": false,
-"window.zoomLevel": 0
+  "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-u>"],
+            "after": ["2", "0", "k"]
+        },
+        {
+            "before": ["<C-d>"],
+            "after": ["2", "0", "j"]
+        }
+    ]
 }
-
