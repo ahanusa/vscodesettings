@@ -15,7 +15,7 @@
     "workbench.activityBar.visible": false,
     "editor.tabSize": 2,
     "git.confirmSync": false,
-    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "window.title": "${rootName}${separator}${activeEditorLong}",
       "vim.insertModeKeyBindings": [
         {
             "before": ["j", "j"],
