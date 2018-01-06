@@ -14,6 +14,7 @@
     "workbench.sideBar.location": "right",
     "workbench.activityBar.visible": false,
     "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
     "git.confirmSync": false,
     "window.title": "${rootName}${separator}${activeEditorLong}",
       "vim.insertModeKeyBindings": [
@@ -56,5 +57,10 @@
                 "j"
             ]
         }
-    ]
+    ],
+     "window.zoomLevel": 0,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "[html]": {
+        "editor.tabsize": 2
+    }
 }
