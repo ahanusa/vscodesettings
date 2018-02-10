@@ -1,44 +1,44 @@
 [
-  { 
+  {
     "key": "cmd+1",
-    "command": "workbench.action.terminal.toggleTerminal" 
+    "command": "workbench.action.terminal.toggleTerminal"
   },
-  { 
-    "key": "ctrl+o",                
-    "command": "workbench.action.navigateBack"   
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.navigateBack"
   },
-  { 
-    "key": "ctrl+i",                
-    "command": "workbench.action.navigateForward"   
+  {
+    "key": "ctrl+i",
+    "command": "workbench.action.navigateForward"
   },
-  { 
-    "key": "cmd+shift+a",                
-    "command": "workbench.action.toggleActivityBarVisibility"   
+  {
+    "key": "cmd+shift+a",
+    "command": "workbench.action.toggleActivityBarVisibility"
   },
-  { 
-    "key": "cmd+j",                
-    "command": "workbench.action.terminal.focus"   
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.terminal.focus"
   },
-  { 
-    "key": "cmd+k", 
+  {
+    "key": "cmd+k",
     "command": "workbench.action.focusActiveEditorGroup",
-    "when": "terminalFocus" 
+    "when": "terminalFocus"
   },
-  { 
-    "key": "cmd+ctrl+l", 
+  {
+    "key": "cmd+ctrl+l",
     "command": "workbench.action.moveEditorToNextGroup"
   },
-  { 
-    "key": "cmd+ctrl+h", 
+  {
+    "key": "cmd+ctrl+h",
     "command": "workbench.action.moveEditorToPreviousGroup"
   },
-  { 
-    "key": "ctrl+h", 
-    "command": "workbench.action.previousEditor" 
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.previousEditor"
   },
-  { 
-    "key": "ctrl+l", 
-    "command": "workbench.action.nextEditor" 
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.nextEditor"
   },
   {
     "key": "ctrl+-",
