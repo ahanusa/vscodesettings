@@ -1,66 +1,10 @@
+//https://stackoverflow.com/questions/29957456/change-default-terminal-app-in-visual-studio-code-on-mac
+
 {
-    "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "Birds II",
-    "sync.gist": "",
-    "sync.lastUpload": null,
-    "sync.autoDownload": false,
-    "sync.autoUpload": false,
-    "sync.lastDownload": null,
-    "sync.version": 242,
-    "sync.showSummary": true,
-    "sync.forceDownload": false,
-    "sync.workspaceSync": false,
-    "sync.anonymousGist": false,
     "workbench.sideBar.location": "right",
     "workbench.activityBar.visible": false,
-    "editor.tabSize": 2,
     "editor.minimap.enabled": false,
-    "git.confirmSync": false,
     "window.title": "${rootName}${separator}${activeEditorLong}",
-      "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
-        }
-    ],
-    "vim.otherModesKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "t",
-                "y"
-            ],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.showCommands",
-                    "args": []
-                }
-            ]
-        },
-        {
-            "before": [
-                "<C-u>"
-            ],
-            "after": [
-                "2",
-                "0",
-                "k"
-            ]
-        },
-        {
-            "before": [
-                "<C-d>"
-            ],
-            "after": [
-                "2",
-                "0",
-                "j"
-            ]
-        }
-    ],
-     "window.zoomLevel": 0,
-    "vim.disableAnnoyingNeovimMessage": true,
-    "[html]": {
-        "editor.tabsize": 2
-    }
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Menlo for Powerline"
 }
