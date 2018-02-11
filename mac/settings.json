@@ -10,4 +10,25 @@
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "window.title": "${rootName}${separator}${activeEditorLong}",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "t",
+                "y"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.showCommands",
+                    "args": []
+                }
+            ]
+        },
+    ],
 }
