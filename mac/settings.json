@@ -16,7 +16,7 @@
             "after": ["<Esc>"]
         }
     ],
-    "vim.otherModesKeyBindingsNonRecursive": [
+    "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "t",
@@ -31,4 +31,7 @@
             ]
         },
     ],
+    "window.zoomLevel": 0,
+    "files.eol": "\n",
+    "explorer.confirmDelete": false
 }
