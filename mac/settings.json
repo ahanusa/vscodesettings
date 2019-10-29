@@ -33,5 +33,6 @@
     ],
     "window.zoomLevel": 0,
     "files.eol": "\n",
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "workbench.list.automaticKeyboardNavigation": false
 }
