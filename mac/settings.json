@@ -1,15 +1,14 @@
-//https://stackoverflow.com/questions/29957456/change-default-terminal-app-in-visual-studio-code-on-mac
-
 {
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "BirdsofParadise",
+    "workbench.colorTheme": "peacocks-in-space",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.explorerKind": "external",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
     "workbench.activityBar.visible": false,
     "editor.minimap.enabled": false,
     "window.title": "${rootName}${separator}${activeEditorLong}",
+    "editor.fontSize": 11,
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "j"],
@@ -31,8 +30,23 @@
             ]
         },
     ],
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "files.eol": "\n",
     "explorer.confirmDelete": false,
-    "workbench.list.automaticKeyboardNavigation": false
+    "workbench.list.automaticKeyboardNavigation": false,
+    "[javascript]": {
+      "editor.tabSize": 2
+    },
+    "[typescript]": {
+      "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+      "editor.tabSize": 2
+    },
+    "[typescriptangular]": {
+      "editor.tabSize": 2
+    },
+    "[html]": {
+      "editor.tabSize": 2
+    },
 }
